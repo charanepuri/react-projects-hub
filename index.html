@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Projects Hub | Curated React Portfolio by Charan Epuri</title>
+  <meta name="description" content="Explore a curated showcase of interactive, production-ready React web applications developed by Charan Epuri. Features live demos, GitHub repositories, architecture documentation, and previews.">
+  <meta name="keywords" content="React Projects, React Portfolio, Charan Epuri, Frontend Developer, Web Applications, React JS, Tailwind CSS, Vercel, Netlify">
+  <meta name="author" content="Charan Epuri">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="React Projects Hub | Charan Epuri">
+  <meta property="og:description" content="Interactive showcase of modern React web applications with live previews and documentation.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="React%20Projects%20Hub.png">
+  <link rel="apple-touch-icon" href="React%20Projects%20Hub.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-radial-glow bg-grid-pattern min-h-screen flex flex-col selection:bg-sky-500 selection:text-white">
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-sky-400 via-blue-600 to-indigo-600 p-0.5 shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform overflow-hidden">
+          <img src="React%20Projects%20Hub.png" alt="React Projects Hub Logo" class="w-full h-full object-cover rounded-[10px]">
+        </div>
+        <div>
+          <span class="text-lg sm:text-xl font-extrabold tracking-tight text-white flex items-center gap-1.5">
+            React Projects <span class="text-sky-400 font-black">Hub</span>
+          </span>
+          <span class="block text-[11px] font-medium text-slate-400 -mt-1 tracking-wide">
+            Portfolio by Charan Epuri
+          </span>
+        </div>
+      </a>
+
+      <!-- Quick Actions & Links -->
+      <div class="flex items-center gap-2 sm:gap-4">
+        <!-- Live Status Pill -->
+        <div class="hidden md:flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span>6 Live Applications</span>
+        </div>
+
+        <!-- Social Links -->
+        <a 
+          href="https://github.com/charanepuri" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="p-2 sm:px-3 sm:py-1.5 rounded-xl text-slate-300 hover:text-white bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 text-xs font-semibold flex items-center gap-1.5 transition"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github text-base"></i>
+          <span class="hidden sm:inline">GitHub</span>
+        </a>
+
+        <a 
+          href="#projects" 
+          class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white shadow-lg shadow-sky-500/20 transition-all flex items-center gap-1.5"
+        >
+          <span>Explore Apps</span>
+          <i class="fa-solid fa-arrow-down text-xs"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="relative pt-12 pb-14 sm:pt-20 sm:pb-20 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      
+      <!-- Announcement Pill -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/90 border border-slate-700 text-slate-300 text-xs sm:text-sm mb-6 shadow-inner">
+        <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+        <span class="font-medium">React 18+ • Tailwind CSS • Vercel & Netlify Hosted</span>
+        <span class="text-slate-500">|</span>
+        <span class="text-sky-400 font-semibold">Full Stack Previews</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight sm:leading-none mb-6">
+        Curated Showcase of <br class="hidden sm:inline">
+        <span class="text-gradient">Interactive React Applications</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+        A central repository of modern, production-deployed React applications developed by 
+        <strong class="text-slate-200">Charan Epuri</strong>. Explore utility suites, sports analytics dashboards, scripture references, cloud explorers, and developer tools.
+      </p>
+
+      <!-- Stats Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+        <div class="glass-panel p-4 sm:p-5 rounded-2xl text-center">
+          <div class="text-2xl sm:text-3xl font-extrabold text-sky-400 flex items-center justify-center gap-1">
+            <span class="stat-counter" data-target="6">0</span>
+          </div>
+          <p class="text-xs sm:text-sm font-medium text-slate-400 mt-1">Live Applications</p>
+        </div>
+
+        <div class="glass-panel p-4 sm:p-5 rounded-2xl text-center">
+          <div class="text-2xl sm:text-3xl font-extrabold text-blue-400 flex items-center justify-center gap-0.5">
+            <span class="stat-counter" data-target="100">0</span>%
+          </div>
+          <p class="text-xs sm:text-sm font-medium text-slate-400 mt-1">Open Source Code</p>
+        </div>
+
+        <div class="glass-panel p-4 sm:p-5 rounded-2xl text-center">
+          <div class="text-2xl sm:text-3xl font-extrabold text-purple-400 flex items-center justify-center gap-1">
+            <span>Free</span>
+          </div>
+          <p class="text-xs sm:text-sm font-medium text-slate-400 mt-1">Interactive Previews</p>
+        </div>
+
+        <div class="glass-panel p-4 sm:p-5 rounded-2xl text-center">
+          <div class="text-2xl sm:text-3xl font-extrabold text-emerald-400 flex items-center justify-center gap-0.5">
+            <span>24/7</span>
+          </div>
+          <p class="text-xs sm:text-sm font-medium text-slate-400 mt-1">Cloud Hosted</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MAIN CONTENT SECTION ================= -->
+  <main id="projects" class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 w-full">
+    
+    <!-- Controls & Filter Toolbar -->
+    <div class="glass-panel p-4 sm:p-6 rounded-2xl mb-8 space-y-4">
+      
+      <!-- Top Row: Search Bar & Actions -->
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+        <!-- Search Input -->
+        <div class="relative flex-1 search-glow rounded-xl border border-slate-700 bg-slate-900/80 transition-all">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <i class="fa-solid fa-magnifying-glass text-sm"></i>
+          </div>
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Search projects by name, features, or tech stack... (Press '/' to focus)" 
+            class="w-full pl-10 pr-10 py-2.5 bg-transparent text-sm text-white placeholder-slate-400 focus:outline-none"
+          >
+          <button 
+            id="clearSearchBtn" 
+            class="hidden absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-white"
+            title="Clear search"
+          >
+            <i class="fa-solid fa-xmark text-sm"></i>
+          </button>
+        </div>
+
+        <!-- Sort, Favorites & View Toggle -->
+        <div class="flex items-center gap-2 self-end sm:self-auto">
+          <!-- Favorites Toggle -->
+          <button 
+            id="favoriteFilterBtn" 
+            class="px-3 py-2 rounded-xl text-xs font-semibold border border-slate-700 bg-slate-900/80 text-slate-400 hover:text-amber-400 hover:border-slate-600 transition flex items-center gap-1.5"
+            title="Show Bookmarked Projects"
+          >
+            <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+            <span class="hidden sm:inline">Favorites</span>
+            <span id="favoritesBadge" class="hidden text-[10px] px-1.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-bold">0</span>
+          </button>
+
+          <!-- Sort Select -->
+          <div class="relative">
+            <select 
+              id="sortSelect" 
+              class="appearance-none px-3.5 py-2 pr-8 rounded-xl text-xs font-semibold border border-slate-700 bg-slate-900/80 text-slate-300 focus:outline-none focus:border-sky-500 cursor-pointer"
+            >
+              <option value="featured">Featured Order</option>
+              <option value="alpha-asc">Name (A → Z)</option>
+              <option value="alpha-desc">Name (Z → A)</option>
+              <option value="category">By Category</option>
+            </select>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2.5 pointer-events-none text-slate-400 text-xs">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+
+          <!-- View Switcher (Grid / List) -->
+          <div class="flex items-center border border-slate-700 rounded-xl overflow-hidden bg-slate-900/80 p-0.5">
+            <button 
+              id="viewGridBtn" 
+              class="p-2 rounded-lg text-sky-400 bg-sky-500/20 border-sky-500/40 text-xs transition" 
+              title="Grid View"
+            >
+              <i class="fa-solid fa-grip"></i>
+            </button>
+            <button 
+              id="viewListBtn" 
+              class="p-2 rounded-lg text-slate-400 hover:text-white text-xs transition" 
+              title="List View"
+            >
+              <i class="fa-solid fa-list"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Category Chips -->
+      <div class="flex items-center justify-between flex-wrap gap-2 pt-2 border-t border-slate-800">
+        <div id="categoryFilters" class="flex items-center gap-1.5 sm:gap-2 flex-wrap">
+          <!-- Populated dynamically by app.js -->
+        </div>
+        <div class="text-xs text-slate-400 font-medium">
+          Showing <span id="projectCount" class="font-bold text-sky-400">6</span> projects
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Grid / List Container -->
+    <div id="projectsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-300">
+      <!-- Cards rendered dynamically via JavaScript -->
+    </div>
+
+    <!-- ================= FEATURE HIGHLIGHTS ================= -->
+    <section class="mt-20 pt-16 border-t border-slate-800">
+      <div class="text-center mb-12">
+        <span class="text-xs uppercase tracking-wider font-bold text-sky-400">Core Architecture</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Built With Modern Standards</h2>
+        <p class="text-slate-400 text-sm max-w-xl mx-auto mt-2">Every application in the React Projects Hub is developed with clean code principles, responsive layouts, and production performance.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="glass-panel p-6 rounded-2xl">
+          <div class="w-10 h-10 rounded-xl bg-sky-500/10 border border-sky-500/30 flex items-center justify-center text-sky-400 mb-4">
+            <i class="fa-brands fa-react text-xl"></i>
+          </div>
+          <h3 class="text-base font-bold text-white mb-1">React 18+ Architecture</h3>
+          <p class="text-slate-400 text-xs leading-relaxed">Functional components, hooks, custom state providers, and clean lifecycle management across all apps.</p>
+        </div>
+
+        <div class="glass-panel p-6 rounded-2xl">
+          <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 mb-4">
+            <i class="fa-solid fa-mobile-screen-button text-lg"></i>
+          </div>
+          <h3 class="text-base font-bold text-white mb-1">Fluid Responsiveness</h3>
+          <p class="text-slate-400 text-xs leading-relaxed">Designed mobile-first with Tailwind CSS and responsive grid layouts, rendering smoothly on any viewport size.</p>
+        </div>
+
+        <div class="glass-panel p-6 rounded-2xl">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-4">
+            <i class="fa-solid fa-cloud-arrow-up text-lg"></i>
+          </div>
+          <h3 class="text-base font-bold text-white mb-1">Automated CI/CD</h3>
+          <p class="text-slate-400 text-xs leading-relaxed">Deployed on Vercel and Netlify edge networks with continuous deployment directly connected to GitHub.</p>
+        </div>
+
+        <div class="glass-panel p-6 rounded-2xl">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4">
+            <i class="fa-solid fa-file-shield text-lg"></i>
+          </div>
+          <h3 class="text-base font-bold text-white mb-1">Docs & Demonstrations</h3>
+          <p class="text-slate-400 text-xs leading-relaxed">Accompanied by PDF architecture documentation, video walkthroughs, and LinkedIn portfolio discussions.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= LIVE PREVIEW MODAL ================= -->
+  <div id="previewModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-md p-2 sm:p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-5xl h-[92vh] flex flex-col overflow-hidden shadow-2xl">
+      
+      <!-- Modal Header -->
+      <div class="px-4 py-3 bg-slate-950 border-b border-slate-800 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-1.5">
+            <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
+            <span class="w-3 h-3 rounded-full bg-yellow-500/80"></span>
+            <span class="w-3 h-3 rounded-full bg-green-500/80"></span>
+          </div>
+          <span class="text-xs sm:text-sm font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-display text-sky-400"></i>
+            <span id="previewTitle">Live Simulator</span>
+          </span>
+        </div>
+
+        <!-- Device Responsive Switcher -->
+        <div class="hidden sm:flex items-center bg-slate-900 border border-slate-700 rounded-lg p-0.5">
+          <button data-device="desktop" class="device-btn px-2.5 py-1 rounded text-xs font-semibold bg-sky-500 text-white transition flex items-center gap-1">
+            <i class="fa-solid fa-desktop"></i>
+            <span>Desktop</span>
+          </button>
+          <button data-device="tablet" class="device-btn px-2.5 py-1 rounded text-xs font-semibold text-slate-300 hover:text-white transition flex items-center gap-1">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+            <span>Tablet</span>
+          </button>
+          <button data-device="mobile" class="device-btn px-2.5 py-1 rounded text-xs font-semibold text-slate-300 hover:text-white transition flex items-center gap-1">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <span>Mobile</span>
+          </button>
+        </div>
+
+        <!-- External Open & Close -->
+        <div class="flex items-center gap-2">
+          <a 
+            id="previewExternalLink" 
+            href="#" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="px-2.5 py-1 rounded-lg bg-sky-500/20 hover:bg-sky-500/30 text-sky-400 border border-sky-500/30 text-xs font-semibold flex items-center gap-1.5 transition"
+            title="Open Fullscreen in New Tab"
+          >
+            <span>Open in Tab</span>
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          </a>
+          <button 
+            id="closePreviewBtn" 
+            class="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition"
+            title="Close Preview (Esc)"
+          >
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Iframe Container -->
+      <div class="flex-1 bg-slate-950 p-2 sm:p-4 overflow-auto flex items-center justify-center">
+        <div id="previewFrameContainer" class="flex justify-center items-center w-full">
+          <iframe 
+            id="previewFrame" 
+            src="about:blank" 
+            class="device-frame-desktop rounded-xl bg-slate-950 border border-slate-800"
+            title="Live React App Preview"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PROJECT DETAILS MODAL ================= -->
+  <div id="detailsModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-md p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl relative">
+      <button 
+        id="closeDetailsBtn" 
+        class="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-slate-900/80 hover:bg-slate-800 text-slate-300 hover:text-white flex items-center justify-center border border-slate-700 transition"
+        title="Close Details (Esc)"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div id="detailsModalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-slate-800/80 bg-slate-950/90 py-10 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        
+        <!-- Brand & Tagline -->
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-lg bg-sky-500/20 border border-sky-500/40 overflow-hidden flex items-center justify-center">
+            <img src="React%20Projects%20Hub.png" alt="React Projects Hub Logo" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-white">React Projects Hub</h4>
+            <p class="text-xs text-slate-400">Curated portfolio engineered by Charan Epuri</p>
+          </div>
+        </div>
+
+        <!-- Social & Code Repositories -->
+        <div class="flex items-center gap-4 text-xs font-semibold text-slate-400">
+          <a href="https://github.com/charanepuri" target="_blank" rel="noopener noreferrer" class="hover:text-white transition flex items-center gap-1.5">
+            <i class="fa-brands fa-github text-sm"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/charan-teja-972aa9231" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 transition flex items-center gap-1.5">
+            <i class="fa-brands fa-linkedin text-sm"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="#projects" class="hover:text-sky-400 transition flex items-center gap-1">
+            <span>Back to Top</span>
+            <i class="fa-solid fa-chevron-up text-[10px]"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800/60 mt-6 pt-6 text-center text-xs text-slate-500">
+        &copy; <span id="currentYear"></span> Charan Epuri. Built with HTML5, CSS3, Tailwind CSS &amp; Vanilla JavaScript. All project rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Project Data & Controller Scripts -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
