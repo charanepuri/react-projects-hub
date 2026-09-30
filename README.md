@@ -14,12 +14,12 @@
 
 | Project | Category | Live Demo | Source Code | Highlights / Docs |
 | :--- | :--- | :--- | :--- | :--- |
-| **Converter Hub** | Utilities & Tools | [Live App](https://converter-hub.netlify.app/) | [GitHub Repo](https://github.com/charanepuri/converter-hub-react) | Real-time multi-unit & currency calculations |
-| **MS Dhoni Dashboard** | Data & Analytics | [Live App](https://ms-dhoni-dashboard-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/ms-dhoni-dashboard-react) | [LinkedIn Showcase](https://lnkd.in/p/dg2sk_9n) |
+| **Converter Hub** | Utilities & Tools | [Live App](https://converter-hub.netlify.app/) | [GitHub Repo](https://github.com/charanepuri/converter-hub-react) | 33 everyday converters, calculators, and utility tools |
+| **MS Dhoni Fan Dashboard** | Data & Analytics | [Live App](https://ms-dhoni-dashboard-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/ms-dhoni-dashboard-react) | Glassmorphism, Framer Motion animations & [LinkedIn Showcase](https://lnkd.in/p/dg2sk_9n) |
 | **Bible Reference App** | Reference & Study | [Live App](https://bible-reference-app-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/bible-reference-app-react) | [Demo Video](https://drive.google.com/file/d/1Lw-DD3W7XtXGFZqR7usDesQs4tZNw6dM/view) • [LinkedIn Post](https://lnkd.in/p/dRKQmR84) |
-| **Cloud Explorer** | Data & Analytics | [Live App](https://cloud-explorer-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/cloud-explorer-react) | [Architecture PDF](https://cloud-explorer-react.vercel.app/Cloud_Explorer_Project_Documentation.pdf) • [LinkedIn Post](https://lnkd.in/p/dNg2tc8y) |
-| **Ultimate Biryani Handbook** | Lifestyle & Guides | [Live App](https://ultimate-biryani-handbook.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/ultimate-biryani-handbook) | [Official Handbook PDF](https://ultimate-biryani-handbook.vercel.app/The%20Ultimate%20Biryani%20Handbook.pdf) |
-| **Smart Error Assistant** | Utilities & Tools | [Live App](https://smart-error-assistant-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/smart-error-assistant-react) | Instant developer error diagnosis & code fixes |
+| **Cloud Explorer** | Data & Analytics | [Live App](https://cloud-explorer-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/cloud-explorer-react) | IaaS, PaaS, SaaS visual platform & [Architecture PDF](https://cloud-explorer-react.vercel.app/Cloud_Explorer_Project_Documentation.pdf) • [LinkedIn Post](https://lnkd.in/p/dNg2tc8y) |
+| **The Ultimate Biryani Handbook** | Lifestyle & Guides | [Live App](https://ultimate-biryani-handbook.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/ultimate-biryani-handbook) | History, state-wise recipes & [Official Handbook PDF](https://ultimate-biryani-handbook.vercel.app/The%20Ultimate%20Biryani%20Handbook.pdf) |
+| **Smart Error Assistant** | Utilities & Tools | [Live App](https://smart-error-assistant-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/smart-error-assistant-react) | Intelligent 404 navigation assistant & suggestions |
 
 ---
 
