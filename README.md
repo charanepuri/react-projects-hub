@@ -20,6 +20,7 @@
 | **Cloud Explorer** | Data & Analytics | [Live App](https://cloud-explorer-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/cloud-explorer-react) | IaaS, PaaS, SaaS visual platform & [Architecture PDF](https://cloud-explorer-react.vercel.app/Cloud_Explorer_Project_Documentation.pdf) • [LinkedIn Post](https://lnkd.in/p/dNg2tc8y) |
 | **The Ultimate Biryani Handbook** | Lifestyle & Guides | [Live App](https://ultimate-biryani-handbook.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/ultimate-biryani-handbook) | History, state-wise recipes & [Official Handbook PDF](https://ultimate-biryani-handbook.vercel.app/The%20Ultimate%20Biryani%20Handbook.pdf) |
 | **Smart Error Assistant** | Utilities & Tools | [Live App](https://smart-error-assistant-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/smart-error-assistant-react) | Intelligent 404 navigation assistant & suggestions |
+| **Tech Glossary Hub (React)** | Reference & Study | [Live App](https://tech-glossary-hub-react.vercel.app/) | [GitHub Repo](https://github.com/charanepuri/tech-glossary-hub-react) | React 19, 10+ technologies & [Glossary PDF](https://tech-glossary-hub-react.vercel.app/Tech_Glossary_Hub_React.pdf) • [LinkedIn Post](https://lnkd.in/p/d5baNnEZ) |
 
 ---
 

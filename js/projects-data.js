@@ -155,5 +155,32 @@ const projectsData = [
       { label: "Live Demo", url: "https://smart-error-assistant-react.vercel.app/", icon: "fa-solid fa-arrow-up-right-from-square", type: "primary" },
       { label: "GitHub Code", url: "https://github.com/charanepuri/smart-error-assistant-react", icon: "fa-brands fa-github", type: "secondary" }
     ]
+  },
+  {
+    id: "tech-glossary-hub",
+    title: "Tech Glossary Hub (React)",
+    badge: "Developer Reference",
+    category: "reference",
+    categoryLabel: "Reference & Study",
+    icon: "fa-solid fa-code",
+    gradient: "from-cyan-400 to-teal-500",
+    glowColor: "rgba(6, 182, 212, 0.35)",
+    shortDesc: "A modern developer-focused technical glossary application built with React 19 and Vite, organizing terms across 10+ core technologies.",
+    longDesc: "Tech Glossary Hub (React) is a modern developer-focused technical glossary application built with React 19 and Vite, designed to make programming concepts easier to discover, understand, and reference. It organizes technical terms across technologies such as HTML, CSS, JavaScript, React, Python, TypeScript, Node.js, Next.js, Vue, and Tailwind CSS. The project demonstrates component-based architecture, React Router navigation, JSON-driven data, search, filtering, sorting, related-term navigation, Local Storage favorites, responsive design, and reusable UI components.",
+    techStack: ["React 19", "Vite", "React Router", "Local Storage", "Tailwind CSS"],
+    features: [
+      "Organizes technical terms across HTML, CSS, JS, React, Python, TypeScript, Node, Next.js, Vue & Tailwind",
+      "Fast search, category filtering, alphabetical sorting, and related-term navigation",
+      "Local Storage favorites bookmarking system to save key definitions",
+      "Built with React 19, Vite, JSON-driven data architecture, and responsive UI components"
+    ],
+    liveUrl: "https://tech-glossary-hub-react.vercel.app/",
+    githubUrl: "https://github.com/charanepuri/tech-glossary-hub-react",
+    links: [
+      { label: "Live Demo", url: "https://tech-glossary-hub-react.vercel.app/", icon: "fa-solid fa-arrow-up-right-from-square", type: "primary" },
+      { label: "GitHub Code", url: "https://github.com/charanepuri/tech-glossary-hub-react", icon: "fa-brands fa-github", type: "secondary" },
+      { label: "Glossary PDF", url: "https://tech-glossary-hub-react.vercel.app/Tech_Glossary_Hub_React.pdf", icon: "fa-solid fa-file-pdf", type: "tertiary" },
+      { label: "LinkedIn Post", url: "https://lnkd.in/p/d5baNnEZ", icon: "fa-brands fa-linkedin-in", type: "tertiary" }
+    ]
   }
 ];
