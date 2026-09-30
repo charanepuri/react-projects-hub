@@ -22,7 +22,8 @@ const projectsData = [
     githubUrl: "https://github.com/charanepuri/converter-hub-react",
     links: [
       { label: "Live Demo", url: "https://converter-hub.netlify.app/", icon: "fa-solid fa-arrow-up-right-from-square", type: "primary" },
-      { label: "GitHub Code", url: "https://github.com/charanepuri/converter-hub-react", icon: "fa-brands fa-github", type: "secondary" }
+      { label: "GitHub Code", url: "https://github.com/charanepuri/converter-hub-react", icon: "fa-brands fa-github", type: "secondary" },
+      { label: "Documentation PDF", url: "https://converter-hub.netlify.app/Converter%20Hub%20Documentation.pdf", icon: "fa-solid fa-file-pdf", type: "tertiary" }
     ]
   },
   {
@@ -48,6 +49,7 @@ const projectsData = [
     links: [
       { label: "Live Demo", url: "https://ms-dhoni-dashboard-react.vercel.app/", icon: "fa-solid fa-arrow-up-right-from-square", type: "primary" },
       { label: "GitHub Code", url: "https://github.com/charanepuri/ms-dhoni-dashboard-react", icon: "fa-brands fa-github", type: "secondary" },
+      { label: "Documentation", url: "https://drive.google.com/file/d/1Ze-FZ5WNFoAONZItoHG3WBqrJQR_snGp/view", icon: "fa-brands fa-google-drive", type: "tertiary" },
       { label: "LinkedIn Showcase", url: "https://lnkd.in/p/dg2sk_9n", icon: "fa-brands fa-linkedin-in", type: "tertiary" }
     ]
   },
